@@ -1,0 +1,13 @@
+<mat-card class="example-card">
+  <div align="center">
+    <mat-card-title><h3>รายชื่อร้านอาหาร</h3></mat-card-title>
+  <div *ngFor="let restaurant of restaurants">
+    <mat-card-content>
+      <mat-divider></mat-divider>
+      <a mat-button routerLink="/res-info/{{restaurant.rid}}">
+        • ร้าน {{restaurant.rname}}</a>
+      <mat-divider></mat-divider>
+    </mat-card-content>
+  </div>
+  </div>
+</mat-card>

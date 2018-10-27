@@ -1,0 +1,14 @@
+    <mat-card class="example-card">
+        <div align="center">
+          <img mat-card-image src="{{restaurantInfo.urlpic}}">
+          <mat-card-title>ร้าน : {{restaurantInfo.rname}}</mat-card-title>
+          <mat-card-content>
+            <p> ที่อยู่ : {{restaurantInfo.raddress}}</p>
+            <p> เบอร์โทรศัพท์ร้าน : {{restaurantInfo.rtel}}</p>
+            <p> เจ้าของร้าน : {{restaurantInfo.freow.owname}}</p>
+            <p> เบอร์โทรศัพท์เจ้าของร้าน : {{restaurantInfo.freow.tel}}</p>
+            <p> ประเภทร้านอาหาร : {{restaurantInfo.fcare.category}}</p>
+            <p> เมนูแนะนำ : {{restaurantInfo.freme.foodname}}</p>
+            <p> โปรโมชั่น : {{restaurantInfo.frepo.proname}}</p>
+            </mat-card-content>
+        </div>
